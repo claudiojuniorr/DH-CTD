@@ -1,0 +1,41 @@
+git init  // cria o repositorio
+
+git add nomeDoArquivo.extensão // adiciona o arquivo ao repositorio
+
+git add . //adiciona todos os arquivos ao repsitorio
+
+git remote add origin repositorioRemoto
+
+git status // mostra os status do arquivo
+
+git commit -m “comentario” // adiciona um comentário a arquivo
+
+git config --global user.name seuNome // agrega seu nome ao repositório
+
+git config --global user.email seuEmail // agrega seu email ao repositório
+
+git remote add origin linkDoRepositrio  // aponta um repositório remoto
+
+git clone linkDoRepositrio //adiciona (baixa) o seguinte repositorio ao computador, ou seja, cria uma copia local.
+
+git config --list // irá listar todas as configurações do repositorio local
+
+git push origin main //empurra os arquivos comitados em sua maquina para o repositorio. Para usar esse comando é necessário que o arquivo esteja comitado.
+
+git pull origin main //atualiza o repositorio alterado pelos colaboradores ao seu repositorio local, ou seja, todas as atualizações e modificações são baixadas no seu computador.
+
+git branch //lista todos as branches
+
+git branch -a //lista as branches do repositório remoto
+
+git checkout -b nomeDaNovaBranch //cria uma nova branch
+
+git branch -d nomeDaBranch //apaga a branch só depois de ter feito merge ou enviado alterações para o repositorio remoto.
+
+git branch -D nomeDaBranch //Apaga a branch, o -D ignora o estado da sua branch
+
+git branch -m nomeDaBranch // renomeia a branch
+
+git branch -m nomeAtualDaBranch novoNomeDaBranch
+
+git checkout nomeDaBranch //muda para a branch informada
