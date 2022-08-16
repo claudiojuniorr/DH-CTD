@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
 
-
 body {
     background-color: #131313;
 }
 
 h1 {
     color:white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .media-picture{
@@ -24,11 +24,13 @@ h1 {
 
 h2 {
     color: steelblue;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
     color: #bdbdbd;
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
