@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+  }
+  
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto-01 {
+    position: absolute;
+    width: 301.33px;
+    height: 127.53px;
+    left: 40px;
+    top: 140.1px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #333333;
+}
+.cabecalho-top {
+    position: absolute;
+    font-size: 20px;
+    background-color: #1CD1B0;
+    text-align:start;
+    height: 38px;
+    width: 1024px;
+    left: 0px;
+    top: 0px;
+    font-size: 10px;
+}
+
+.cabecalho-herois{
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 10;
+    background-color: #00669F;
+    width: 1024px;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 25);
+}
+
+.caixa-01 {
+    position: absolute;
+    width: 374px;
+    height: 379.2px;
+    left: 112px;
+    top: 441.8px;
+    
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.back-cover-batman {
+    position: absolute;
+    width: 374px;
+    height: 217.81px;
+    left: 112px;
+    top: 225.11px;    
+    background: url(../img/back-cover-batman.jpeg);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.batman {
+    position: absolute;
+    width: 137.69px;
+    height: 39.5px;
+    left: 140px;
+    top: 80.31px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.rodape {
+    position: absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rodape-texto{
+    position: absolute;
+    width: 299px;
+    height: 19px;
+    left: 28px;
+    top: 15px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FFF9F9;
+    
+}
+
+.desconto{
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.super-herois {
+    position: absolute;
+    width: 224px;
+    height: 47px;
+    left: 28px;
+    top: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+}
+
+.caixa-ver-mais-1 {
+    position: absolute;
+    width: 145.34px;
+    height: 54.76px;
+    left: 225.93px;
+    top: 745.39px;
+
+    background: #00669F;
+}
+
+.texto-ver-mais-01 {
+    position: absolute;
+    width: 63.2px;
+    height: 20.31px;
+    left: 40px;
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #F3F3F3;
+}
+
+.photo-batman {
+    position: absolute;
+    width: 135.43px;
+    height: 133.17px;
+    left: 231.57px;
+    top: 369.57px;
+    border-radius: 50%;
+    background: url(../img/batman.jpeg);
+}
+
+.heart1 {
+    margin: 140px;
+    background-color: #CC2424;
+    height: 20px;
+    transform: rotate(-45deg);
+    width: 20px;
+    position: relative;
+    bottom: -120px;
+}
+
+.heart1:before,
+.heart1:after {
+    content: "";
+    background-color: #CC2424;
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+
+.heart1:before {
+    top: -10px;
+}
+
+.heart1:after {
+    left: 10px;
+}
+
+.back-cover-arquelina {
+    position: absolute;
+    width: 373.57px;
+    height: 217.81px;
+    left: 572.43px;
+    top: 225.11px;
+
+    background-image: url(../img/back-cover-arlequina.jpeg);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.caixa-02 {
+    position: absolute;
+    width: 374px;
+    height: 379px;
+    left: 572px;
+    top: 442px;
+
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arquelina {
+    position: absolute;
+    width: 192.99px;
+    height: 39.5px;
+    left: 130.79px;
+    top: 80.31px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.texto-02 {
+    position: absolute;
+    width: 301.33px;
+    height: 127.53px;
+    left: 36.49px;
+    top: 140.1px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #333333;
+}
+
+.caixa-ver-mais-2 {
+    position: absolute;
+    width: 145.34px;
+    height: 54.76px;
+    left: 694.36px;
+    top: 745.39px;
+
+    background: #00669F;
+} 
+
+.texto-ver-mais-02 {
+    position: absolute;
+    width: 63.2px;
+    height: 20.31px;
+    left: 40px;
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #F3F3F3;
+}
+
+.photo-arquelina {
+    position: absolute;
+    width: 137.69px;
+    height: 137.69px;
+    left: 698.87px;
+    top: 367.31px;
+    border-radius: 50%;
+    background-image: url(../img/arlequina.jpeg);
+}
+
+.heart2 {
+    margin: 100px;
+    background-color: #CC2424;
+    height: 20px;
+    transform: rotate(-45deg);
+    width: 20px;
+    position: relative;
+    bottom: 40px;
+    right: -500px;
+}
+
+.heart2:before,
+.heart2:after {
+    content: "";
+    background-color: #CC2424;
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+
+.heart2:before {
+    top: -10px;
+}
+
+.heart2:after {
+    left: 10px;
+}
