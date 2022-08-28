@@ -1,0 +1,2 @@
+O hardware corresponde aos componentes físicos do computador, ou seja, são as peças e aparatos eletrônicos que, ao se conectarem, fazem o equipamento funcionar.
+O software é a parte referente aos sistemas que executam as atividades, ou seja, são os programas e aplicativos que fazem com a máquina funcione.

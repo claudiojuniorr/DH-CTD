@@ -1,0 +1,3 @@
+O Git Bash  é uma aplicação que emula um terminal Unix e permite que o usuário possa utilizar os comandos do git.
+
+O Visual Studio Code ou simplesmente VS Code é um editor de código aberto desenvolvido pela Micrsoft.
