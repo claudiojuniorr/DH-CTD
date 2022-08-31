@@ -68,7 +68,13 @@
     z-index: 2;
     top: -70px;
 }
-
+.main .card .coracao {
+    position: relative;
+    left: -110px;
+    top: -260px;
+    width: 40px;
+    z-index: 3;
+}
 .main .card h1 {
     position: relative;
     bottom: 70px;
@@ -122,6 +128,11 @@
         width: 100px;
         left:80px;
         top: -50px;
+    }
+    .main .card .coracao {
+        width: 30px;
+        top: -200px;
+        left: -93px;
     }
     .main .card h1 {
         font-size: 22px;
