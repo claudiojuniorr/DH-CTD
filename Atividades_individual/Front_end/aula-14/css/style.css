@@ -125,6 +125,7 @@
 @media (max-width:511px) {
     .cabecalho {
         height: 320px;
+        position: relative;
     }
     .cabecalho ul {
         flex-direction: column;
