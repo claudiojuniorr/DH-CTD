@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(33, 117, 117);
+    width: 100%;
+    height: 80px;
+    z-index: 10;
+}
+
+.cabecalho h1 {
+    color: white;
+    padding: 20px;
+}
+.cabecalho nav ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    padding: 20px;
+    
+}
+.cabecalho nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.main .card {
+    width: 350px;
+    height: 600px;
+    margin: 10px;
+    background-color: rgba(203, 193, 181, 0.411);
+    border-radius: 10px 10px 0 0;
+}
+
+.main .card .estranho {
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.main .card .perfil {
+    position: relative;
+    width: 120px;
+    left: 120px;
+    border-radius: 100%;
+    z-index: 2;
+    top: -70px;
+}
+
+.main .card h1 {
+    position: relative;
+    bottom: 70px;
+    left: 80px;
+    font-size: 30px;
+}
+
+.main .card p {
+    position: relative;
+    top: -50px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.main .card button {
+    position: relative;
+    bottom: 30px;
+    left: 130px;
+    background-color: rgba(203, 94, 16, 0.644);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+   
+}
+
+@media ( max-width: 620px) {
+    .cabecalho {
+        height: 130px;
+        flex-direction: column;
+        padding: 0;
+    }
+
+}
+
+@media (max-width:511px) {
+    .cabecalho {
+        height: 320px;
+    }
+    .cabecalho ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main .card {
+        width: 250px;
+        height: 580px;
+    }
+    .main .card .estranho {
+        width: 250px;
+    }
+    .main .card .perfil {
+        width: 100px;
+        left:80px;
+    }
+    .main .card h1 {
+        font-size: 22px;
+        left: 50px;
+    }
+    .main .card button {
+        left: 80px;
+    }
+
+}
