@@ -121,13 +121,19 @@
     .main .card .perfil {
         width: 100px;
         left:80px;
+        top: -50px;
     }
     .main .card h1 {
         font-size: 22px;
         left: 50px;
+        top: -40px;
+    }
+    .main .card p {
+        top: -20px;
     }
     .main .card button {
         left: 80px;
+        top: -10px;
     }
 
 }
