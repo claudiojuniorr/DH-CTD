@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #D9D9D9;
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 82px;
+    background-color: #317C66;
+}
+.cabecalho h1 {
+    margin: 0 20px;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 2.375rem;
+}
+.cabecalho nav ul {
+    display: flex;
+    gap: 40px;
+    margin: 0 20px;
+    list-style-type: none;
+}
+.cabecalho nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #67AF9E;
+    border-radius: 10px;
+    width: 98px;
+    height: 30px;
+}
+.cabecalho nav ul li a {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: .75rem;
+    line-height: .875rem;
+    text-decoration: none;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+}
+.main .img img{
+    width: 100%;
+    height: 610px;
+}
+.main .curiosidades {
+    width: 100%;
+    height: 50px;
+}
+.main .curiosidades h2 {
+    margin: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 38px;
+    color: #3C3200;
+}
+.main .curiosidades h2 img {
+    width: 28px;
+}
+.main .all-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+}
+.main .all-card .card {
+    width: 260px;
+    height: 400px;
+    margin: 0 0 10px 10px;
+    background-color: rgba(255, 255, 255, 0.43);
+    border-radius: 10px 10px 0 0;
+}
+
+.main .all-card .card img {
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    border-radius: 10px 10px 0 0;
+}
+.main .all-card .card div{
+    position: relative;
+    top: 130px;
+    height: 70px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.main .all-card .card div span img {
+    width: 34px;
+    height: 33px;
+    margin: 0 10px;
+}
+.main .all-card .card div span h4 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 19px;
+    color: #3C3200;
+    width: 126px;
+    height: 20px;
+    margin: 0 10px;
+    background-color: rgba(217, 217, 217, 0.72);
+}
+.main .all-card .card  p {
+    position: relative;
+    text-align: center;
+    top: 140px;
+    min-height: 135px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #000000;
+}
+.main .all-card .card .botao {
+    width: 260px;
+    display: flex;
+    justify-content: center;
+}
+.main .all-card .card  .botao button {
+    position: relative;
+    width: 126px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    background-color: rgba(140, 168, 144, 0.73);;
+    border-radius: 5px;
+}
+.main .video {
+    width: 100%;
+    height: 50px;
+}
+.main .video h2 {
+    margin: 0 20px;
+}
+.main .video-you-tube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 70vh;
+}
+.rodape {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 171px;
+    background-color: #317C66;
+}
+.rodape .logo-rodape {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+}
+.rodape .logo-rodape h1 {
+    margin: 5px;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 2.375rem;
+}
+.rodape .rede-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+}
+.rodape .rede-social a .linkedin {
+    width: 70px;
+    margin: 0 20px;
+}
+.rodape .rede-social a .github {
+    width: 100px;
+    margin: 0 20px;
+}.rodape div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 41px;
+}
+.rodape div h2 {
+    color: #EBEBEB;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        height: 100px;
+    }
+    .cabecalho h1{
+        position: relative;
+        top: 5px;
+    }
+    .cabecalho nav ul li {
+        position: relative;
+        bottom: 10px;
+    }
+    .main .img img {
+        width: 100%;
+        height: 531px;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .cabecalho {
+        height: 250px;
+    }
+    .cabecalho h1 {
+        position: relative;
+        top: 5px;
+    }
+    .cabecalho ul {
+        flex-direction: column;
+        position: relative;
+        bottom: 5px;
+    }
+    .main .img img {
+        width: 100%;
+        height: 531px;
+    }
+    .rodape .logo-rodape h1 {
+        margin: 10px 0 0 0;
+        font-size: 1.25rem;
+    }
+    .rodape div h2 {
+        font-size: .75rem;
+    }
+}
+@media (max-width: 375px) {
+    .main .img img {
+        width: 100%;
+        height: 531px;
+    }
+    .rodape .logo-rodape h1 {
+        font-size: 1.25rem;
+    }
+    .rodape div h2 {
+        font-size: .75rem;
+    }
+}
+@media (max-width: 320px) {
+    .main .img img {
+        width: 100%;
+        height: 531px;
+    }
+    .rodape .logo-rodape h1 {
+        font-size: 1.25rem;
+    }
+    .rodape div h2 {
+        font-size: .75rem;
+    }
+}
