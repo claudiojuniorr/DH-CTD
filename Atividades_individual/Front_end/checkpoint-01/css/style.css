@@ -397,21 +397,6 @@ body {
         width: 150px;
         height: 50px;
     }
-    .rodape .rede-social {
-        flex-direction: column;
-    }
-    .rodape .rede-social a .linkedin {
-        width: 50px;
-        margin: 0 20px;
-    }
-    .rodape .rede-social a .github {
-        width: 65px;
-        margin: 0 20px;
-    }
-    .rodape div h2 {
-        margin-top: 20px;
-        font-size: .75rem;
-    }
 }
 @media (max-width: 650px) {
     .cabecalho {
