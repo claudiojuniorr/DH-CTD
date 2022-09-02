@@ -38,13 +38,13 @@ body {
     justify-content: center;
     background-color: #67AF9E;
     border-radius: 10px;
-    width: 98px;
+    width: 120px;
     height: 30px;
 }
 .cabecalho nav ul li a {
     color: #FFFFFF;
     font-weight: 500;
-    font-size: .75rem;
+    font-size: .875remm;
     line-height: .875rem;
     text-decoration: none;
 }
