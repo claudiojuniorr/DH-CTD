@@ -429,8 +429,12 @@ body {
 }
 
 @media (max-width: 425px) {
+    .rodape .rede-social {
+        flex-direction: column;
+    }
     .rodape .logo-rodape h1 {
         font-size: 1.25rem;
+        margin-bottom: 20px;
     }
     .main .img .unep h2 {
         font-size: 1rem;
@@ -447,11 +451,11 @@ body {
         height: 176px;
     }
     .rodape .rede-social a .linkedin {
-        width: 50px;
+        width: 40px;
         margin: 0 20px;
     }
     .rodape .rede-social a .github {
-        width: 72px;
+        width: 55px;
         margin: 0 20px;
 }
 }
