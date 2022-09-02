@@ -54,15 +54,17 @@ body {
 }
 .main .img img{
     width: 100%;
-    height: 610px;
+    height: 550px;
+    
 }
 .main .curiosidades {
     width: 100%;
     height: 50px;
 }
 .main .curiosidades h2 {
-    margin: 20px;
-    font-size: 2rem;
+    text-align: center;
+    margin: 50px;
+    font-size: 2.625rem;
     font-weight: 700;
     line-height: 38px;
     color: #3C3200;
@@ -72,6 +74,7 @@ body {
 }
 .main .all-card {
     display: flex;
+    margin-top: 40px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -81,7 +84,7 @@ body {
 .main .all-card .card {
     width: 260px;
     height: 400px;
-    margin: 0 0 10px 10px;
+    margin: 20px;
     background-color: rgba(255, 255, 255, 0.43);
     border-radius: 10px 10px 0 0;
 }
@@ -91,6 +94,7 @@ body {
     width: 260px;
     height: 182px;
     border-radius: 10px 10px 0 0;
+    object-fit: cover;
 }
 .main .all-card .card div{
     position: relative;
@@ -149,7 +153,9 @@ body {
     height: 50px;
 }
 .main .video h2 {
-    margin: 0 20px;
+    text-align: center;
+    margin: 50px;
+    font-size: 2.625rem;
 }
 .main .video-you-tube {
     display: flex;
@@ -222,7 +228,7 @@ body {
     }
     .main .img img {
         width: 100%;
-        height: 531px;
+        height: 550px;
     }
     
 }
@@ -242,7 +248,7 @@ body {
     }
     .main .img img {
         width: 100%;
-        height: 531px;
+        height: 550px;
     }
     .rodape .logo-rodape h1 {
         margin: 10px 0 0 0;
@@ -255,7 +261,7 @@ body {
 @media (max-width: 375px) {
     .main .img img {
         width: 100%;
-        height: 531px;
+        height: 550px;
     }
     .rodape .logo-rodape h1 {
         font-size: 1.25rem;
@@ -267,7 +273,7 @@ body {
 @media (max-width: 320px) {
     .main .img img {
         width: 100%;
-        height: 531px;
+        height: 550px;
     }
     .rodape .logo-rodape h1 {
         font-size: 1.25rem;
