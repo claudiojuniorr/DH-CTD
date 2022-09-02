@@ -108,7 +108,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 .main .all-card .card {
     width: 260px;
@@ -179,19 +179,20 @@ body {
 }
 .main .video {
     width: 100%;
-    height: 50px;
+    height: 60px;
 }
 .main .video h2 {
     text-align: center;
-    margin: 50px;
+    margin: 40px;
     font-size: 2.625rem;
+    color: #3C3200;
 }
 .main .video-you-tube {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 70vh;
+    min-height: 50vh;
 }
 .rodape {
     display: flex;
@@ -254,7 +255,7 @@ body {
         height: 70px;
     }
     .cabecalho {
-        height: 120px;
+        height: 140px;
     }
     .cabecalho h1 {
         font-size: 3rem;
@@ -327,6 +328,9 @@ body {
     }
     .main .video h2 {
         font-size: 4rem;
+    }
+    .main .video-you-tube {
+        min-height: 60vh;
     }
     .main .video-you-tube .you-tube {
         width: 1024px;
@@ -448,6 +452,7 @@ body {
     .rodape .rede-social a .github {
         width: 72px;
         margin: 0 20px;
+}
 }
 @media (max-width: 320px) {
     .rodape .logo-rodape h1 {
