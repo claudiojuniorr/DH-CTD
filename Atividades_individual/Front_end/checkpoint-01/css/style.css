@@ -162,8 +162,9 @@ header {
     text-align: center;
     top: 140px;
     min-height: 135px;
+    padding: 0 10px;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: .99rem;
     line-height: 19px;
     color: #000000;
 }
