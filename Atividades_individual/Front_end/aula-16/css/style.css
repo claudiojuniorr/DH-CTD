@@ -54,7 +54,9 @@
 
 .main .formulario {
     display: flex;
-    width: 622px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 428px;
 }
 .main .formulario .login {
@@ -70,10 +72,11 @@
 }
 .main .formulario .login input {
     border: #000000 solid 2px;
-    width: 620px;
+    width: 100%;
     max-width: 620px;;
     height: 60px;
     margin-bottom: 15px;
+    padding: 10px;
 }
 .main .formulario .login input::placeholder {
     padding: 20px;
@@ -81,7 +84,8 @@
 }
 .main .formulario .login button {
     background-color: #1CD1B0;
-    width: 615px;
+    width: 100%;
+    max-width: 615px;
     height: 54px;
     border-radius: 23px;
     color: #000000;
