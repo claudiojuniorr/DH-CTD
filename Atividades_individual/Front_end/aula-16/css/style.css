@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.cabecalho-geral {
+    width: 100%;
+    height: 100px;
+}
+
+.cabecalho-geral .desconto {
+    width: 100%;
+    height: 20px;
+    background-color: #1CD1B0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho-geral .desconto h2 {
+    display: flex;
+    align-items: center;
+    font-size: .9375rem;
+    color: #000000;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.cabecalho-geral .cabecalho {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    background-color: #00669F;
+
+}
+.cabecalho-geral .cabecalho h1 {
+    display: flex;
+    align-items: center;
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main .formulario {
+    display: flex;
+    width: 622px;
+    height: 428px;
+}
+.main .formulario .login {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.main .formulario .login h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 25px;
+}
+.main .formulario .login input {
+    border: #000000 solid 2px;
+    width: 620px;
+    max-width: 620px;;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.main .formulario .login input::placeholder {
+    padding: 20px;
+    font-size: 1.25rem;
+}
+.main .formulario .login button {
+    background-color: #1CD1B0;
+    width: 615px;
+    height: 54px;
+    border-radius: 23px;
+    color: #000000;
+    font-size: 24px;
+    align-items: center;
+    font-weight: 700;
+    line-height: 44px;
+    margin-top: 20px;
+}
+.main .formulario .login h2 {
+    font-size: 1.3125rem;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+}
+.main .formulario .login h2 a{
+    color: #00669F;
+    text-decoration: none;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #00669F;
+}
+.rodape h2 {
+    color: #E5E5E5;
+    font-size: 1rem;
+    font-weight: 400;
+}
