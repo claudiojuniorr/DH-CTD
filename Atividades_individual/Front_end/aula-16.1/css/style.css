@@ -107,12 +107,14 @@
 }
 .main .add-super .formulario {
     display: flex;
+    flex-direction: column;
     height: 732px;
     width: 100%;
     max-width: 955px;
     justify-content:center;
+    align-items: center;
 }
-.main .add-super .formulario .controlador:not(.botao) {
+.main .add-super .formulario .controlador {
     display: flex;
 }
 .main .add-super .formulario .controlador .div-1 {
@@ -197,7 +199,7 @@
 .main .add-super .formulario .controlador .div-1 hr {
     border-top: 1px solid #CCCCCC;
 }
-.main .add-super .formulario .controlador .botao {
+.main .add-super .formulario .botao {
     display: flex;
     justify-content: center;
     align-items: center;
