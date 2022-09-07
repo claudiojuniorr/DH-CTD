@@ -54,11 +54,12 @@
 }
 .cabecalho-geral .navegacao nav ul {
     display: flex;
-    gap: 15px;
-    padding-right: 20px;
+    gap: 30px;
+    padding-right: 40px;
 }
 .cabecalho-geral .navegacao nav ul li {
     list-style-type: none;
+
 }
 .cabecalho-geral .navegacao nav ul li a {
     text-decoration: none;
@@ -152,7 +153,7 @@
 .main .add-super .formulario .controlador .div-1 textarea {
     width: 100%;
     max-width: 343px;
-    height: 307px;
+    height: 407px;
     background-color: #FFFFFF;
     border-radius: 15px;
 }
@@ -213,6 +214,7 @@
     line-height: 44px;
     font-weight: 700;
     cursor: pointer;
+    margin: 20px;
 }
 .rodape {
     display: flex;
