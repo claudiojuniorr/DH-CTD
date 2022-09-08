@@ -204,7 +204,7 @@
 .main .add-super .formulario .controlador div .div-1 hr {
     border-top: 1px solid #CCCCCC;
 }
-.main .add-super .formulario .botao {
+.main .add-super .formulario .controlador .botao {
     display: flex;
     align-self: center;
     align-items: center;
