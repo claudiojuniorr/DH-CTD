@@ -117,8 +117,12 @@
 }
 .main .add-super .formulario .controlador {
     display: flex;
+    flex-direction: column;
 }
-.main .add-super .formulario .controlador .div-1 {
+.main .add-super .formulario .controlador div {
+    display: flex;
+}
+.main .add-super .formulario .controlador div .div-1 {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -127,12 +131,12 @@
     width: 375px;
     margin: 10px;
 }
-.main .add-super .formulario .controlador .div-1 label {
+.main .add-super .formulario .controlador div .div-1 label {
     font-size: 1.25rem;
     font-weight: 300;
     color: #FFFFFF;
 }
-.main .add-super .formulario .controlador .div-1 input {
+.main .add-super .formulario .controlador div .div-1 input {
     width: 100%;
     max-width: 343px;
     height: 63px;
@@ -140,7 +144,7 @@
     border: 1.53407px solid rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     padding-left: 10px;
-}.main .add-super .formulario .controlador .div-1 select {
+}.main .add-super .formulario .controlador div .div-1 select {
     width: 100%;
     max-width: 343px;
     height: 63px;
@@ -150,23 +154,23 @@
     padding-left: 10px;
     cursor: pointer;
 }
-.main .add-super .formulario .controlador .div-1 textarea {
+.main .add-super .formulario .controlador div .div-1 textarea {
     width: 100%;
     max-width: 343px;
     height: 407px;
     background-color: #FFFFFF;
     border-radius: 15px;
 }
-.main .add-super .formulario .controlador .div-1 textarea::placeholder {
+.main .add-super .formulario .controlador div .div-1 textarea::placeholder {
     color: rgba(0, 0, 0, 0.5);
     font-weight: 300;
     font-size: 1.25rem;
     padding: 10px;
 }
-.main .add-super .formulario .controlador .div-1 .add-foto {
+.main .add-super .formulario .controlador div .div-1 .add-foto {
     display: none;
 }
-.main .add-super .formulario .controlador .div-1 .add-foto-label {
+.main .add-super .formulario .controlador div .div-1 .add-foto-label {
     padding-left: 10px;
     width: 100%;
     max-width: 223px;
@@ -182,28 +186,29 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.main .add-super .formulario .controlador .div-1 .poder,  .main .add-super .formulario .controlador .div-1 .categoria{
+.main .add-super .formulario .controlador div .div-1 .poder,  .main .add-super .formulario .controlador div .div-1 .categoria{
     display: flex;
 }
-.main .add-super .formulario .controlador .div-1 .marcar {
+.main .add-super .formulario .controlador div .div-1 .marcar {
     width: 24px;
     height: 20px;
     background-color: #FFFFFF;
     border: 1px solid #C4C4C4;
 }
-.main .add-super .formulario .controlador .div-1 .tipo {
+.main .add-super .formulario .controlador div .div-1 .tipo {
     font-size: 1.25rem;
     color: #FFFFFF;
     line-height: 26px;
     padding-left: 10px;
 }
-.main .add-super .formulario .controlador .div-1 hr {
+.main .add-super .formulario .controlador div .div-1 hr {
     border-top: 1px solid #CCCCCC;
 }
 .main .add-super .formulario .botao {
     display: flex;
-    justify-content: center;
+    align-self: center;
     align-items: center;
+    justify-content: center;
     background-color: #1CD1B0;
     width: 100%;
     max-width: 466px;
