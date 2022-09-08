@@ -144,7 +144,12 @@
     border: 1.53407px solid rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     padding-left: 10px;
-}.main .add-super .formulario .controlador div .div-1 select {
+    transition: 1s;
+}
+.main .add-super .formulario .controlador div .div-1 input:hover {
+    background-color: #c4c4c465;
+}
+.main .add-super .formulario .controlador div .div-1 select {
     width: 100%;
     max-width: 343px;
     height: 63px;
@@ -156,10 +161,16 @@
 }
 .main .add-super .formulario .controlador div .div-1 textarea {
     width: 100%;
-    max-width: 343px;
+    max-width: 355px;
     height: 407px;
     background-color: #FFFFFF;
     border-radius: 15px;
+    transition: 1s;
+    resize: none;
+    overflow-wrap: break-word;
+}
+.main .add-super .formulario .controlador div .div-1 textarea:hover{
+    background-color: #c4c4c465;
 }
 .main .add-super .formulario .controlador div .div-1 textarea::placeholder {
     color: rgba(0, 0, 0, 0.5);
@@ -185,6 +196,10 @@
     margin-top: 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: 1s;
+}
+.main .add-super .formulario .controlador div .div-1 .add-foto-label:hover {
+    transform: scale(1.02);
 }
 .main .add-super .formulario .controlador div .div-1 .poder,  .main .add-super .formulario .controlador div .div-1 .categoria{
     display: flex;
@@ -194,6 +209,7 @@
     height: 20px;
     background-color: #FFFFFF;
     border: 1px solid #C4C4C4;
+    cursor: pointer;
 }
 .main .add-super .formulario .controlador div .div-1 .tipo {
     font-size: 1.25rem;
@@ -220,6 +236,10 @@
     font-weight: 700;
     cursor: pointer;
     margin: 20px;
+    transition: 1s;
+}
+.main .add-super .formulario .controlador .botao:hover {
+    transform: scale(1.1);
 }
 .rodape {
     display: flex;
