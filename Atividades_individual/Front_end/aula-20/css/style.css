@@ -17,7 +17,7 @@ nav {
     padding: 0 !important;
 }
 .cabecalho {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     width: 100% !important;
     animation-name: cabecalho;
     animation-duration: 1s;
@@ -227,7 +227,7 @@ nav {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding-left: 10px;
 }
 .footer .logo {
