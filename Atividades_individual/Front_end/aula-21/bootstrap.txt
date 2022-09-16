@@ -1,0 +1,1 @@
+1) Entra no site: https://getbootstrap.com/ 2) Desce um pouco o site até : Include via CDN! 2.1) Copie a parte (<!-- CSS only -->) e cole no <head> ele sera seu <link> css só que puxando da biblioteca do Boot. 3) Depois Copie a parte (<!-- JavaScript Bundle with Popper -->) e cole no <body> Obs: ele deverá sempre ser a ultima coisa de seu <body> 
