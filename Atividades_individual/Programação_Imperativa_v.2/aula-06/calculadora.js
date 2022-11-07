@@ -52,3 +52,4 @@ function geradorDePorcentagem(valor1, valor2){
 
 console.log("------Gerador de Porcentagem / Calculadora------");
 console.log(geradorDePorcentagem(2, 200));
+
