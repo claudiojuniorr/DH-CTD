@@ -76,7 +76,7 @@ function microondas (opcao, tempo){
         ){
         console.log(`Tempo insuficiente`);
     }else{
-        console.log(`Prato inexistente`)
+        console.log(`Prato inexistente`);
     }
 }
 
