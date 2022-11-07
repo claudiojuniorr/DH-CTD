@@ -50,7 +50,7 @@ function microondas (opcao, tempo){
         opcao === 4 && tempo >= feijaoTempo && tempo < feijaoTempo*2 ||
         opcao === 5 && tempo >= brigadeiroTempo && tempo < brigadeiroTempo*2
         ){
-        console.log(`Prato pronto, bom apetite!!!`);
+        console.log(`Prato ${opcao} pronto, bom apetite!!!`);
     }else if (
         opcao === 1 && tempo >= pipocaTempo*2 && tempo < pipocaTempo*3 ||
         opcao === 2 && tempo >= macarraoTempo*2 && tempo < macarraoTempo*3 ||
@@ -80,4 +80,4 @@ function microondas (opcao, tempo){
     }
 }
 
-microondas (9, 5)
+microondas (1, 12)
