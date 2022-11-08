@@ -1,17 +1,12 @@
 /*
-
 Olá, você foi contratado para executar este projeto. É importante que você analise, entenda o pedido do cliente e desenvolva conforme solicitado. Veja abaixo os requisitos do projeto:
-
 OBS: Entrega até 16/11/2022 -> 23:59
-
 - Precisamos desenvolver um menu para um microondas super veloz, onde teremos 5 opções de comida com seus respectivos tempos pré-definidos. 
-
       1 - Pipoca – 10 segundos (padrão);
       2 - Macarrão – 8 segundos (padrão);
       3 - Carne – 15 segundos (padrão);
       4 - Feijão – 12 segundos (padrão);
       5 - Brigadeiro – 8 segundos (padrão); 
-
 - O usuário poderá alterar o tempo padrão, aumentando ou diminuindo de acordo com sua vontade. Se o tempo informado for maior que 2x o necessário, exibir mensagem que a comida queimou.
 - Se o tempo for menor que o padrão, exibir a mensagem: "tempo insuficiente"; 
 - Opções não listadas no menu, devem exibir uma mensagem de erro: "Prato inexistente";
@@ -24,60 +19,47 @@ Juliett Garcia
 Alanna Mercia
 Akira Yamada
 Agnaldo Silva
-Claudio Ribeiro
+Claúdio Ribeiro Junior
 Railana
-
 */
 
-function microondas (opcao, tempo){
-    const pipocaTempo = 10;
-    const macarraoTempo = 8;
-    const carneTempo = 15;
-    const feijaoTempo = 12;
-    const brigadeiroTempo = 8;
-
-    console.log(`
-    1 - Pipoca – 10 segundos (padrão)
-    2 - Macarrão – 8 segundos (padrão)
-    3 - Carne – 15 segundos (padrão)
-    4 - Feijão – 12 segundos (padrão)
-    5 - Brigadeiro – 8 segundos (padrão)
-    `);
-
-    if (opcao === 1 && tempo >= pipocaTempo && tempo < pipocaTempo*2 || 
-        opcao === 2 && tempo >= macarraoTempo && tempo < macarraoTempo*2 ||
-        opcao === 3 && tempo >= carneTempo && tempo < carneTempo*2 ||
-        opcao === 4 && tempo >= feijaoTempo && tempo < feijaoTempo*2 ||
-        opcao === 5 && tempo >= brigadeiroTempo && tempo < brigadeiroTempo*2
-        ){
-        console.log(`Prato ${opcao} pronto, bom apetite!!!`);
-    }else if (
-        opcao === 1 && tempo >= pipocaTempo*2 && tempo < pipocaTempo*3 ||
-        opcao === 2 && tempo >= macarraoTempo*2 && tempo < macarraoTempo*3 ||
-        opcao === 3 && tempo >= carneTempo*2 && tempo < carneTempo*3 ||
-        opcao === 4 && tempo >= feijaoTempo*2 && tempo < feijaoTempo*3 ||
-        opcao === 5 && tempo >= brigadeiroTempo*2 && tempo < brigadeiroTempo*3
-        ){
+function tempo(tempoPadrao, tempoInformado){
+    if (tempoInformado >= tempoPadrao && tempoInformado < tempoPadrao*2){
+        console.log(`Prato pronto, bom apetite!!!`);
+    }else if (tempoInformado >= tempoPadrao*2 && tempoInformado < tempoPadrao*3){
         console.log(`A comida queimou`);
-    }else if (
-        opcao === 1 && tempo >= pipocaTempo*3 ||
-        opcao === 2 && tempo >= macarraoTempo*3 ||
-        opcao === 3 && tempo >= carneTempo*3 ||
-        opcao === 4 && tempo >= feijaoTempo*3 ||
-        opcao === 5 && tempo >= brigadeiroTempo*3
-        ){
+    }else if (tempoInformado >= tempoPadrao*3){
         console.log(`Kabumm`);
-    }else if (
-        opcao === 1 && tempo < pipocaTempo ||
-        opcao === 2 && tempo < macarraoTempo ||
-        opcao === 3 && tempo < carneTempo ||
-        opcao === 4 && tempo < feijaoTempo ||
-        opcao === 5 && tempo < brigadeiroTempo
-        ){
+    }else if (tempoInformado < tempoPadrao){
         console.log(`Tempo insuficiente`);
-    }else{
-        console.log(`Prato inexistente`);
     }
 }
 
-microondas (1, 12);
+function microondas(opcao, tempoInformado){
+    switch (opcao){
+        case 1:
+            console.log(`Você pediu PIPOCA `);
+            tempo(10, tempoInformado);
+            break;
+            case 2:
+                console.log(`Você pediu MACARRÃO `);
+                tempo(8, tempoInformado);
+                break;
+            case 3:
+                console.log(`Você pediu CARNE `);
+                tempo(15, tempoInformado);
+                break;
+            case 4:
+                console.log(`Você pediu FEIJÃO `);
+                tempo(12, tempoInformado);
+                break;
+            case 5:
+                console.log(`Você pediu BRIGADEIRO `);
+                tempo(8, tempoInformado);
+                break;
+            default:
+                console.log(`Prato inexistente`);
+    }
+}
+
+microondas(1, 10);
