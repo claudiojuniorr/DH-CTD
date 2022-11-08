@@ -30,11 +30,11 @@ Railana
 */
 
 function microondas (opcao, tempo){
-    pipocaTempo = 10;
-    macarraoTempo = 8;
-    carneTempo = 15;
-    feijaoTempo = 12;
-    brigadeiroTempo = 8;
+    const pipocaTempo = 10;
+    const macarraoTempo = 8;
+    const carneTempo = 15;
+    const feijaoTempo = 12;
+    const brigadeiroTempo = 8;
 
     console.log(`
     1 - Pipoca – 10 segundos (padrão)
@@ -80,4 +80,4 @@ function microondas (opcao, tempo){
     }
 }
 
-microondas (1, 12)
+microondas (1, 12);
