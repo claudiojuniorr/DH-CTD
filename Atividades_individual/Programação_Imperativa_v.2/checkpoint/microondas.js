@@ -41,24 +41,24 @@ function microondas(opcao, tempoInformado){
             console.log(`Você pediu PIPOCA `);
             tempo(10, tempoInformado);
             break;
-            case 2:
-                console.log(`Você pediu MACARRÃO `);
-                tempo(8, tempoInformado);
-                break;
-            case 3:
-                console.log(`Você pediu CARNE `);
-                tempo(15, tempoInformado);
-                break;
-            case 4:
-                console.log(`Você pediu FEIJÃO `);
-                tempo(12, tempoInformado);
-                break;
-            case 5:
-                console.log(`Você pediu BRIGADEIRO `);
-                tempo(8, tempoInformado);
-                break;
-            default:
-                console.log(`Prato inexistente`);
+        case 2:
+            console.log(`Você pediu MACARRÃO `);
+            tempo(8, tempoInformado);
+            break;
+        case 3:
+            console.log(`Você pediu CARNE `);
+            tempo(15, tempoInformado);
+            break;
+        case 4:
+            console.log(`Você pediu FEIJÃO `);
+            tempo(12, tempoInformado);
+            break;
+        case 5:
+            console.log(`Você pediu BRIGADEIRO `);
+            tempo(8, tempoInformado);
+            break;
+        default:
+            console.log(`Prato inexistente`);
     }
 }
 
