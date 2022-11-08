@@ -20,7 +20,7 @@ Alanna Mercia
 Akira Yamada
 Agnaldo Silva
 Claúdio Ribeiro Junior
-Railana
+Railana Ramos
 */
 
 function tempo(tempoPadrao, tempoInformado){
@@ -62,4 +62,4 @@ function microondas(opcao, tempoInformado){
     }
 }
 
-microondas(1, 10);
+microondas(2, 8);
