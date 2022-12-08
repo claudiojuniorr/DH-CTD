@@ -34,9 +34,9 @@ const curso = {
                     if(aluno.calcularMedia() > (this.notaAprovacao+(this.notaAprovacao*0.1))){
                         return true;
                     }
-                     return false;
+                    return false;
                 }
-                 return false;
+                return false;
             }
         }
     },
