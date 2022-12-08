@@ -33,12 +33,10 @@ const curso = {
                 }else if(aluno.calcularMedia() >= this.notaAprovacao && aluno.qtdFaltas == this.faltasMaximas){
                     if(aluno.calcularMedia() > (this.notaAprovacao+(this.notaAprovacao*0.1))){
                         return true;
-                    }else{
-                        return false;
                     }
-                }else {
-                    return false;
+                     return false;
                 }
+                 return false;
             }
         }
     },
