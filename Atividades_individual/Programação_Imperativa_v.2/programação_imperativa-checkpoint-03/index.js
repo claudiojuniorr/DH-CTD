@@ -1,3 +1,15 @@
+function aprovadoReprovado(aluno){
+    if(aluno.calcularMedia() >= curso.notaAprovacao && aluno.qtdFaltas < curso.faltasMaximas){
+        return true;
+    }else if(aluno.calcularMedia() >= curso.notaAprovacao && aluno.qtdFaltas == curso.faltasMaximas){
+        if(aluno.calcularMedia() > (curso.notaAprovacao+(curso.notaAprovacao*0.1))){
+            return true;
+        }
+        return false;
+    }
+    return false;
+}
+
 class Aluno{
     constructor (nome, qtdFaltas, notas){
         this.nome = nome;
@@ -28,17 +40,10 @@ const curso = {
     resultadoAluno(nomeAluno){
         for (let aluno of this.listaEstudantes){
             if(aluno.nome == nomeAluno){
-                if(aluno.calcularMedia() >= this.notaAprovacao && aluno.qtdFaltas < this.faltasMaximas){
-                    return true;
-                }else if(aluno.calcularMedia() >= this.notaAprovacao && aluno.qtdFaltas == this.faltasMaximas){
-                    if(aluno.calcularMedia() > (this.notaAprovacao+(this.notaAprovacao*0.1))){
-                        return true;
-                    }
-                    return false;
-                }
-                return false;
+                return aprovadoReprovado(aluno);
             }
         }
+        
     },
     resultados(){
         const alunosResultados = [];
@@ -51,7 +56,7 @@ const curso = {
 
 curso.addAluno("Claúdio Ribeiro Junior", 5, [100, 80, 90]);
 curso.addAluno("João Santos Ferreira", 10, [70, 80, 70]);
-curso.addAluno("Adriana Ferreira", 7, [90, 80, 70]);
+curso.addAluno("Adriana Ferreira", 7, [90, 80, 40]);
 
 console.log(curso.resultadoAluno("Claúdio Ribeiro Junior"));
 console.log(curso.resultadoAluno("João Santos Ferreira"));
