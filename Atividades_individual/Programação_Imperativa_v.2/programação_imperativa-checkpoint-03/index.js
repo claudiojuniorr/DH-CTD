@@ -1,3 +1,4 @@
+/* Função que verifica se o aluno foi aprovado ou reprovado. Retorna True caso seja aprovado e False caso seja reprovado */
 function aprovadoReprovado(aluno){
     if(aluno.calcularMedia() >= curso.notaAprovacao && aluno.qtdFaltas < curso.faltasMaximas){
         return true;
