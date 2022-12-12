@@ -18,11 +18,11 @@ class Aluno{
         this.notas = notas;
     }
     calcularMedia(){
-        let media = 0;
+        let soma = 0;
         for (let nota of this.notas){
-            media += nota;
+            soma += nota;
         }
-        return (media / this.notas.length).toFixed(1);
+        return (soma / this.notas.length).toFixed(1);
     }
     faltas(){
         this.qtdFaltas ++;
